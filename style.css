@@ -1,0 +1,124 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: url("parking.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+}
+#Glavna{
+    background-color: black;
+    width: 40%;
+    height: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-direction: column;
+}
+#reg,#unos{
+    background-color: black;
+    width: 40%;
+    height: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-direction: column;
+   color: wheat;
+  display: flex;
+ 
+
+}
+#back{
+    display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #4a5eb9;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#btnre,#btnzsunos{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    
+    background-color: #4a5eb9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    
+}
+
+
+
+
+#brojRegistracije,#unesenBrojRegistracije{
+    width: 50%;
+    padding: 10px 10px;
+    margin-left: 24%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+    
+}
+#drugi,#unosbtn{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4a5eb9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    width: 40%;
+    height: 10%;
+    margin-left: 28.5%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+
+
+
+#lbl1,#lbl2{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+#btnre:hover {background-color: #456ddd}
+
+#btnre:active {
+  background-color: #456ddd;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#btnzsunos:hover {background-color: #456ddd}
+
+#btnzsunos:active {
+  background-color:  #456ddd;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
